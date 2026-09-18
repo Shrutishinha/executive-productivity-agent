@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": "Executive Productivity Agent Data Pack",
+    "executive": "Arjun Malhotra",
+    "role": "VP Sales",
+    "date_range": {
+      "start": "2026-09-21",
+      "end": "2026-09-25"
+    }
+  },
+  "people": [
+    {
+      "name": "Arjun Malhotra",
+      "email": "arjun.malhotra@company.com",
+      "role": "VP Sales",
+      "organization": "Company"
+    },
+    {
+      "name": "Raghav Verma",
+      "email": "raghav.verma@company.com",
+      "role": "CEO",
+      "organization": "Company"
+    },
+    {
+      "name": "Neha Sharma",
+      "email": "neha.sharma@company.com",
+      "role": "VP Product",
+      "organization": "Company"
+    },
+    {
+      "name": "Divya Kapoor",
+      "email": "divya.kapoor@company.com",
+      "role": "VP Engineering",
+      "organization": "Company"
+    },
+    {
+      "name": "Vikram Seth",
+      "email": "vikram.seth@acmecorp.com",
+      "role": "Procurement Director",
+      "organization": "Acme Corp"
+    },
+    {
+      "name": "Priya Nair",
+      "email": "priya.nair@company.com",
+      "role": "Sales Ops Lead",
+      "organization": "Company"
+    }
+  ],
+  "leadership_meeting": {
+    "title": "Weekly Leadership Sync - Q4 Planning & Execution",
+    "date": "2026-09-21",
+    "time": "09:00 AM - 10:30 AM",
+    "location": "Boardroom A / Video Call",
+    "attendees": ["Raghav Verma", "Arjun Malhotra", "Neha Sharma", "Divya Kapoor"],
+    "transcript": "[09:00] Raghav Verma: Welcome everyone to our Monday sync for the week of September 21st, 2026. Let's focus on key Q4 deliverables. Arjun, where do we stand on the Q4 Sales Pipeline Forecast?\n[09:03] Arjun Malhotra: Morning Raghav. The initial pipeline looks strong at $4.2M. However, I need to finalize the probability weights. I commit to sending you the finalized Q4 Sales Forecast by Wednesday, September 23 at 5:00 PM.\n[09:06] Raghav Verma: Great. Make sure engineering sign-off on enterprise feature support is included in that forecast.\n[09:08] Divya Kapoor: Arjun, my team is reviewing the enterprise feature requirements. I will provide the technical feasibility sign-off to you by Wednesday morning, September 23 at 11:00 AM.\n[09:12] Arjun Malhotra: Thanks Divya. Moving on to Acme Corp: Vikram from Acme requested a revised pricing proposal with a 15% volume discount. I will draft the revised Acme proposal and share it with Raghav by Wednesday, September 23 at 5:00 PM for executive approval.\n[09:18] Raghav Verma: Sound good. Neha, how about the product roadmap v2 deck for enterprise clients?\n[09:21] Neha Sharma: I'm finalizing the feature list. I will send the Product Roadmap v2 deck to Arjun by Thursday, September 24 at 12:00 PM so his team can use it for enterprise pitches.\n[09:25] Raghav Verma: Arjun, we also need a competitive intelligence update before the weekend customer advisory board meeting.\n[09:28] Arjun Malhotra: Understood Raghav. I will prepare the Competitor Battlecard and deliver it to you by Friday, September 25 at 12:00 PM.\n[09:32] Neha Sharma: One critical item: We urgently need budget signoff for hiring two Lead Solutions Architects for Q4 onboarding. Raghav, please approve the reorg budget by Tuesday, September 22 at 5:00 PM.\n[09:37] Raghav Verma: I'll review the finance numbers today. Also, regarding the Zenith account customer onboarding, someone from security or engineering needs to complete the Zenith security audit compliance review by Wednesday, September 23 at 5:00 PM. Who is taking ownership of this?\n[09:41] Divya Kapoor: We haven't assigned a security owner yet. Let's flag this as unassigned until we clarify whether SecOps or Product Compliance owns it.\n[09:45] Raghav Verma: Okay, let's keep that open and unassigned for now. Thanks everyone."
+  },
+  "calendars": {
+    "Arjun Malhotra": [
+      {
+        "event": "Weekly Leadership Sync",
+        "date": "2026-09-21",
+        "time": "09:00 - 10:30",
+        "attendees": ["Raghav Verma", "Neha Sharma", "Divya Kapoor"]
+      },
+      {
+        "event": "Sales Team Pipeline Review",
+        "date": "2026-09-21",
+        "time": "14:00 - 15:00",
+        "attendees": ["Priya Nair"]
+      },
+      {
+        "event": "Acme Deal Review with Legal",
+        "date": "2026-09-22",
+        "time": "11:00 - 12:00",
+        "attendees": ["Priya Nair"]
+      },
+      {
+        "event": "Q4 Sales Forecast Work Session",
+        "date": "2026-09-23",
+        "time": "15:00 - 17:00",
+        "attendees": ["Arjun Malhotra"]
+      },
+      {
+        "event": "Acme Corp Executive Alignment",
+        "date": "2026-09-24",
+        "time": "14:00 - 15:00",
+        "attendees": ["Vikram Seth", "Raghav Verma"]
+      },
+      {
+        "event": "Customer Advisory Board Sync",
+        "date": "2026-09-25",
+        "time": "14:00 - 16:00",
+        "attendees": ["Raghav Verma", "Neha Sharma"]
+      }
+    ],
+    "Raghav Verma": [
+      {
+        "event": "Weekly Leadership Sync",
+        "date": "2026-09-21",
+        "time": "09:00 - 10:30",
+        "attendees": ["Arjun Malhotra", "Neha Sharma", "Divya Kapoor"]
+      },
+      {
+        "event": "Board Pre-Meeting Review",
+        "date": "2026-09-22",
+        "time": "10:00 - 11:30",
+        "attendees": ["Raghav Verma"]
+      },
+      {
+        "event": "Acme Corp Executive Alignment",
+        "date": "2026-09-24",
+        "time": "14:00 - 15:00",
+        "attendees": ["Arjun Malhotra", "Vikram Seth"]
+      }
+    ],
+    "Neha Sharma": [
+      {
+        "event": "Weekly Leadership Sync",
+        "date": "2026-09-21",
+        "time": "09:00 - 10:30",
+        "attendees": ["Arjun Malhotra", "Raghav Verma", "Divya Kapoor"]
+      },
+      {
+        "event": "Product Roadmap v2 Workshop",
+        "date": "2026-09-23",
+        "time": "13:00 - 15:00",
+        "attendees": ["Neha Sharma"]
+      }
+    ],
+    "Divya Kapoor": [
+      {
+        "event": "Weekly Leadership Sync",
+        "date": "2026-09-21",
+        "time": "09:00 - 10:30",
+        "attendees": ["Arjun Malhotra", "Raghav Verma", "Neha Sharma"]
+      },
+      {
+        "event": "Engineering Architecture Review",
+        "date": "2026-09-22",
+        "time": "14:00 - 16:00",
+        "attendees": ["Divya Kapoor"]
+      }
+    ]
+  },
+  "email_threads": [
+    {
+      "thread_id": "thread_1_acme_deal",
+      "subject": "Acme Corp Enterprise Deal - Pricing & Terms Revision",
+      "emails": [
+        {
+          "email_id": "t1_e1",
+          "sender": "vikram.seth@acmecorp.com",
+          "recipients": ["arjun.malhotra@company.com"],
+          "timestamp": "2026-09-21T11:15:00",
+          "body": "Hi Arjun, Following our leadership sync discussion, Acme requires the updated pricing schedule with a 15% tier discount. Can you provide the finalized proposal by Wednesday?"
+        },
+        {
+          "email_id": "t1_e2",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["vikram.seth@acmecorp.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-21T14:30:00",
+          "body": "Hi Vikram, I confirmed with Raghav. We are targetting to have the revised proposal ready by Wednesday September 23 at 5:00 PM."
+        },
+        {
+          "email_id": "t1_e3",
+          "sender": "vikram.seth@acmecorp.com",
+          "recipients": ["arjun.malhotra@company.com"],
+          "timestamp": "2026-09-22T16:00:00",
+          "body": "Arjun, our legal committee moved their review meeting to Thursday afternoon. Is it possible to adjust the proposal delivery deadline to Thursday, September 24 at 2:00 PM instead?"
+        },
+        {
+          "email_id": "t1_e4",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["vikram.seth@acmecorp.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-23T09:30:00",
+          "body": "Hi Vikram and Raghav, Noted on the schedule shift. We officially resolve and update the revised Acme proposal deadline to Thursday, September 24 at 2:00 PM."
+        },
+        {
+          "email_id": "t1_e5",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["vikram.seth@acmecorp.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-24T13:30:00",
+          "body": "Hi Vikram & Raghav, Attached is the finalized Acme Enterprise Pricing Proposal with 15% tier discount approved. This completes the Acme proposal deliverable ahead of today's 2:00 PM deadline."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_2_q4_forecast",
+      "subject": "Q4 Sales Revenue Pipeline & Technical Feasibility Sign-off",
+      "emails": [
+        {
+          "email_id": "t2_e1",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["divya.kapoor@company.com"],
+          "timestamp": "2026-09-21T15:00:00",
+          "body": "Hi Divya, As discussed in Monday's leadership sync, I need your team's technical feasibility sign-off on enterprise custom connectors before I can finalize the Q4 Sales Forecast for Raghav by Wednesday 5:00 PM. Please send sign-off by Wed Sep 23 at 11:00 AM."
+        },
+        {
+          "email_id": "t2_e2",
+          "sender": "divya.kapoor@company.com",
+          "recipients": ["arjun.malhotra@company.com"],
+          "timestamp": "2026-09-22T17:30:00",
+          "body": "Hi Arjun, We ran into performance benchmarking bottlenecks on the custom connectors. I won't be able to provide sign-off by Wednesday morning. I will complete technical sign-off by Thursday, September 24 at 4:00 PM."
+        },
+        {
+          "email_id": "t2_e3",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["raghav.verma@company.com"],
+          "timestamp": "2026-09-23T11:30:00",
+          "body": "Hi Raghav, Quick update: I am waiting on Divya for engineering feasibility sign-off (rescheduled to Thursday 4 PM). Consequently, my Q4 Sales Forecast deliverable deadline is shifted to Friday, September 25 at 9:00 AM."
+        },
+        {
+          "email_id": "t2_e4",
+          "sender": "divya.kapoor@company.com",
+          "recipients": ["arjun.malhotra@company.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-24T15:45:00",
+          "body": "Hi Arjun & Raghav, Engineering sign-off on enterprise custom connectors is complete and approved. Over to Arjun for the forecast."
+        },
+        {
+          "email_id": "t2_e5",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["raghav.verma@company.com"],
+          "timestamp": "2026-09-25T08:50:00",
+          "body": "Hi Raghav, Following Divya's sign-off yesterday, I have finalized the Q4 Sales Pipeline Forecast ($4.2M total, weighted $3.1M). Attached is the full forecast document. This fulfills my promise for Friday 9:00 AM."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_3_customer_onboarding",
+      "subject": "Zenith Account Customer Onboarding & Security Compliance",
+      "emails": [
+        {
+          "email_id": "t3_e1",
+          "sender": "priya.nair@company.com",
+          "recipients": ["arjun.malhotra@company.com", "neha.sharma@company.com"],
+          "timestamp": "2026-09-21T13:00:00",
+          "body": "Hi Arjun & Neha, Zenith account onboarding is blocked because the client sent a 40-page Security Audit & Compliance questionnaire. Deadline from client is Wednesday, September 23 at 5:00 PM."
+        },
+        {
+          "email_id": "t3_e2",
+          "sender": "neha.sharma@company.com",
+          "recipients": ["priya.nair@company.com", "arjun.malhotra@company.com"],
+          "timestamp": "2026-09-21T16:20:00",
+          "body": "As raised in the leadership sync, ownership for completing the Zenith security audit compliance review is currently unassigned. Neither Sales nor Product owns security compliance sign-off."
+        },
+        {
+          "email_id": "t3_e3",
+          "sender": "priya.nair@company.com",
+          "recipients": ["arjun.malhotra@company.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-23T10:00:00",
+          "body": "Reminder: Zenith security audit compliance review due today September 23 at 5:00 PM remains unassigned with no owner designated."
+        },
+        {
+          "email_id": "t3_e4",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["raghav.verma@company.com", "neha.sharma@company.com", "divya.kapoor@company.com"],
+          "timestamp": "2026-09-23T17:30:00",
+          "body": "Raghav, the Zenith security audit compliance deadline of Wed Sep 23 5:00 PM has passed without completion. This action item remains OVERDUE and UNASSIGNED."
+        },
+        {
+          "email_id": "t3_e5",
+          "sender": "raghav.verma@company.com",
+          "recipients": ["arjun.malhotra@company.com", "divya.kapoor@company.com"],
+          "timestamp": "2026-09-24T09:00:00",
+          "body": "Flagging this for Monday's executive sync to formally assign a compliance lead. Status remains unassigned."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_4_competitor_deck",
+      "subject": "Competitor Battlecard & Market Positioning for Customer Advisory Board",
+      "emails": [
+        {
+          "email_id": "t4_e1",
+          "sender": "raghav.verma@company.com",
+          "recipients": ["arjun.malhotra@company.com"],
+          "timestamp": "2026-09-21T11:00:00",
+          "body": "Arjun, confirming our talk in the sync: please ensure the Competitor Battlecard deck is delivered to me by Friday, September 25 at 12:00 PM sharp."
+        },
+        {
+          "email_id": "t4_e2",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["raghav.verma@company.com"],
+          "timestamp": "2026-09-21T11:45:00",
+          "body": "Confirmed Raghav. I promise to deliver the completed Competitor Battlecard deck to you by Friday September 25 at 12:00 PM."
+        },
+        {
+          "email_id": "t4_e3",
+          "sender": "priya.nair@company.com",
+          "recipients": ["arjun.malhotra@company.com"],
+          "timestamp": "2026-09-23T14:00:00",
+          "body": "Hi Arjun, I uploaded the win/loss analysis metrics for the battlecard deck into your folder."
+        },
+        {
+          "email_id": "t4_e4",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["priya.nair@company.com"],
+          "timestamp": "2026-09-24T18:00:00",
+          "body": "Thanks Priya. Finalizing the deck tonight for Raghav."
+        },
+        {
+          "email_id": "t4_e5",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["raghav.verma@company.com"],
+          "timestamp": "2026-09-25T11:30:00",
+          "body": "Hi Raghav, Attached is the completed Competitor Battlecard and Positioning Deck for the Customer Advisory Board. Delivered at 11:30 AM, ahead of the Friday 12:00 PM deadline."
+        }
+      ]
+    },
+    {
+      "thread_id": "thread_5_hiring_reorg",
+      "subject": "Q4 Sales Enablement Reorg & Solutions Architect Hiring Budget",
+      "emails": [
+        {
+          "email_id": "t5_e1",
+          "sender": "neha.sharma@company.com",
+          "recipients": ["raghav.verma@company.com", "arjun.malhotra@company.com"],
+          "timestamp": "2026-09-21T10:00:00",
+          "body": "Raghav, As stated in leadership sync, please review and grant executive budget signoff for hiring 2 Lead Solutions Architects. Deadline for signoff is Tuesday, September 22 at 5:00 PM."
+        },
+        {
+          "email_id": "t5_e2",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["neha.sharma@company.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-21T12:00:00",
+          "body": "Supporting Neha on this. Sales engineering headcount is critical for Q4 deals."
+        },
+        {
+          "email_id": "t5_e3",
+          "sender": "neha.sharma@company.com",
+          "recipients": ["raghav.verma@company.com"],
+          "timestamp": "2026-09-23T09:00:00",
+          "body": "Hi Raghav, The hiring budget signoff deadline (Tuesday Sept 22 5:00 PM) has passed without your approval. We are waiting on Raghav for this approval."
+        },
+        {
+          "email_id": "t5_e4",
+          "sender": "arjun.malhotra@company.com",
+          "recipients": ["neha.sharma@company.com"],
+          "timestamp": "2026-09-24T10:00:00",
+          "body": "Neha, I checked with Raghav's EA. He is still reviewing finance reports. We are still waiting on Raghav for Solutions Architect budget signoff."
+        },
+        {
+          "email_id": "t5_e5",
+          "sender": "neha.sharma@company.com",
+          "recipients": ["arjun.malhotra@company.com", "raghav.verma@company.com"],
+          "timestamp": "2026-09-25T10:00:00",
+          "body": "Status as of Friday Sept 25: Hiring budget signoff by Raghav remains OVERDUE (was due Tue Sep 22 5:00 PM). Action is pending Raghav's approval."
+        }
+      ]
+    }
+  ],
+  "voice_notes": [
+    {
+      "voice_note_id": "vn_1",
+      "date": "2026-09-21",
+      "timestamp": "2026-09-21T20:00:00",
+      "speaker": "Arjun Malhotra",
+      "transcript": "Voice note entry, Monday evening September 21st. Big day in executive sync today. Let me log my key commitments. First, I promised Raghav the finalized Q4 Sales Forecast by Wednesday September 23 at 5:00 PM. But I'm waiting on Divya for engineering technical feasibility sign-off due Wednesday 11 AM. Second commitment: I promised Vikram and Raghav the revised Acme pricing proposal with 15% discount by Wednesday September 23 at 5:00 PM. Third commitment: I promised Raghav the Competitor Battlecard deck by Friday September 25 at 12:00 PM. Also noted: Neha is waiting on Raghav for Solutions Architect budget signoff due Tuesday 5 PM, and the Zenith security audit compliance review is completely unassigned."
+    },
+    {
+      "voice_note_id": "vn_2",
+      "date": "2026-09-24",
+      "timestamp": "2026-09-24T19:30:00",
+      "speaker": "Arjun Malhotra",
+      "transcript": "Voice note entry, Thursday evening September 24th. Status update: The Acme proposal deadline was updated to Thursday 2:00 PM and I successfully delivered the finalized proposal to Vikram and Raghav at 1:30 PM. That action is COMPLETED! Also, Divya delivered engineering sign-off today at 3:45 PM, so I updated my Q4 forecast deadline to Friday morning 9:00 AM. I need to deliver that first thing tomorrow. Remind myself: Competitor battlecard due to Raghav tomorrow Friday at 12:00 PM. Still waiting on Neha for Product Roadmap v2 deck. Zenith security audit remains unassigned and overdue."
+    }
+  ]
+}
