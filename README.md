@@ -1,29 +1,39 @@
-# 🤖 AGENTIC AI FACTORY — Executive Productivity Agent
+<div align="center">
 
-> **An AI-powered Executive Productivity Agent that transforms messy multi-channel business communication into structured, actionable executive intelligence.**
+<img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=gradient&customColorList=12,14,16,18&text=EXECUTIVE%20AI%20AGENT&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=43" width="100%"/>
 
-Built for **Arjun Malhotra, VP Sales**, this system analyzes meetings, emails, calendars, and voice notes from **Monday, 21 September 2026 → Friday, 25 September 2026** to identify commitments, deadlines, dependencies, ownership, completion status, and overdue actions.
+<br>
 
-The agent combines **deterministic processing, structured state management, SQLite persistence, and grounded AI-powered Q&A** to provide an auditable executive workflow.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=700&color=8B5CF6&center=true&vCenter=true&width=850&lines=Processing+business+signals...;Extracting+executive+commitments...;Resolving+deadlines+%26+ownership...;Tracking+actions+with+evidence...;Generating+grounded+executive+intelligence..." />
 
----
+<br><br>
 
-## ✨ What Problem Does It Solve?
+<img src="https://skillicons.dev/icons?i=python,streamlit,sqlite,pandas&theme=light" />
+
+<br><br>
+
+AI • Automation • Executive Decision Support • Grounded Q&A
+
+</div>
+
+✨ What Problem Does It Solve?
 
 Executives receive important information across multiple channels:
 
-* 📨 Emails
-* 🗓️ Calendar events
-* 📝 Meeting transcripts
-* 🎙️ Voice notes
+📨 Emails
+
+🗓️ Calendar events
+
+📝 Meeting transcripts
+
+🎙️ Voice notes
 
 Important commitments can easily become scattered, duplicated, delayed, or unclear.
 
-This agent converts that unstructured information into a **single source of actionable truth**.
+This agent converts that unstructured information into a single source of actionable truth.
 
-### Input → Intelligence → Action
+Input → Intelligence → Action
 
-```text
 Emails ───────┐
 Meetings ─────┤
 Calendars ────┼──► Extraction ─► Deduplication ─► State Tracking
@@ -39,33 +49,61 @@ Voice Notes ──┘                                      │
                                       │ Completed Commitments   │
                                       │ Grounded Q&A             │
                                       └─────────────────────────┘
-```
 
----
+🎯 Core Capabilities
 
-# 🎯 Core Capabilities
+Capability
 
-| Capability                         | Description                                                          |
-| ---------------------------------- | -------------------------------------------------------------------- |
-| 🔎 **Commitment Extraction**       | Identifies promises and actions committed to by Arjun                |
-| 🤝 **Dependency Tracking**         | Detects actions waiting on Divya, Neha, Raghav, or others            |
-| ⏰ **Deadline Detection**           | Extracts deadlines from emails, meetings, calendars, and voice notes |
-| 🔄 **Deadline Resolution**         | Applies the latest chronological deadline when commitments change    |
-| 🧩 **Cross-Channel Deduplication** | Merges multiple references to the same action                        |
-| 🚨 **Overdue Detection**           | Flags incomplete actions whose deadlines have passed                 |
-| 👤 **Ownership Detection**         | Identifies actions with unclear or missing ownership                 |
-| ✅ **Completion Tracking**          | Detects evidence that an action has been completed                   |
-| 📊 **Daily Executive Brief**       | Generates a date-specific action summary                             |
-| 💬 **Grounded Q&A**                | Answers executive questions using only verified source evidence      |
-| 🔗 **Evidence Traceability**       | Every important answer/action can be traced back to its source       |
+Description
 
----
+🔎 Commitment Extraction
 
-# 🧠 Intelligence Pipeline
+Identifies promises and actions committed to by Arjun
+
+🤝 Dependency Tracking
+
+Detects actions waiting on Divya, Neha, Raghav, or others
+
+⏰ Deadline Detection
+
+Extracts deadlines from emails, meetings, calendars, and voice notes
+
+🔄 Deadline Resolution
+
+Applies the latest chronological deadline when commitments change
+
+🧩 Cross-Channel Deduplication
+
+Merges multiple references to the same action
+
+🚨 Overdue Detection
+
+Flags incomplete actions whose deadlines have passed
+
+👤 Ownership Detection
+
+Identifies actions with unclear or missing ownership
+
+✅ Completion Tracking
+
+Detects evidence that an action has been completed
+
+📊 Daily Executive Brief
+
+Generates a date-specific action summary
+
+💬 Grounded Q&A
+
+Answers executive questions using only verified source evidence
+
+🔗 Evidence Traceability
+
+Every important answer/action can be traced back to its source
+
+🧠 Intelligence Pipeline
 
 The application follows a structured processing pipeline:
 
-```text
                 ┌──────────────────────┐
                 │     DATA PACK        │
                 │  data_pack.json      │
@@ -113,19 +151,15 @@ The application follows a structured processing pipeline:
        ┌─────────────────┐   ┌─────────────────┐
        │ DAILY BRIEF     │   │ EXECUTIVE Q&A  │
        └─────────────────┘   └─────────────────┘
-```
 
----
+🔍 Key Features
 
-# 🔍 Key Features
+1. Commitment Isolation
 
-## 1. Commitment Isolation
-
-The system identifies commitments specifically made by **Arjun Malhotra**.
+The system identifies commitments specifically made by Arjun Malhotra.
 
 Example categories:
 
-```text
 Commitment
 ├── Action
 ├── Owner
@@ -134,44 +168,36 @@ Commitment
 ├── Status
 ├── Source
 └── Evidence
-```
 
 This prevents general discussion items from being incorrectly treated as executive commitments.
 
----
-
-## 2. Waiting on Others
+2. Waiting on Others
 
 The system distinguishes between:
 
-### 🟢 My Actions
+🟢 My Actions
 
 Actions that Arjun needs to complete.
 
-### 🟡 Waiting on Others
+🟡 Waiting on Others
 
 Actions blocked by another person or dependency.
 
 Example:
 
-```text
 Action: Receive updated numbers
 Owner: Divya Kapoor
 Waiting on: Divya Kapoor
 Status: Waiting on Others
-```
 
 This allows the executive to immediately see what is blocked without confusing it with their own pending work.
 
----
-
-## 3. Chronological Deadline Resolution
+3. Chronological Deadline Resolution
 
 Deadlines can change across channels.
 
 For example:
 
-```text
 Original:
 Acme proposal → Wednesday 5:00 PM
 
@@ -180,19 +206,15 @@ Acme proposal → Thursday 2:00 PM
 
 Completion evidence:
 Delivered → Thursday 1:30 PM
-```
 
-The system processes evidence chronologically and uses the **latest valid deadline** when determining the final state.
+The system processes evidence chronologically and uses the latest valid deadline when determining the final state.
 
 This prevents outdated deadlines from incorrectly appearing as overdue.
 
----
-
-## 4. Cross-Channel Deduplication
+4. Cross-Channel Deduplication
 
 The same action may appear in:
 
-```text
 Meeting transcript
        ↓
 Email thread
@@ -200,11 +222,9 @@ Email thread
 Voice note
        ↓
 Calendar
-```
 
 Instead of creating four separate tasks, the system attempts to consolidate them into a single canonical action with multiple evidence references.
 
-```text
                  ┌───────────────┐
                  │ Canonical     │
                  │ Action        │
@@ -214,15 +234,11 @@ Instead of creating four separate tasks, the system attempts to consolidate them
           ▼              ▼              ▼
        Meeting         Email        Voice Note
        Evidence        Evidence      Evidence
-```
 
----
-
-# 🚨 Action State Model
+🚨 Action State Model
 
 Every action is classified into an operational state:
 
-```text
                  ┌─────────────┐
                  │   ACTION    │
                  └──────┬──────┘
@@ -234,25 +250,25 @@ Every action is classified into an operational state:
                         │
                         ▼
                      Overdue
-```
 
-### Supported States
+Supported States
 
-* 🟢 **Completed**
-* 🔵 **Pending**
-* 🟡 **Waiting on Others**
-* 🔴 **Overdue**
-* ⚪ **Unassigned**
+🟢 Completed
 
----
+🔵 Pending
 
-# 👤 Ownership Resolution
+🟡 Waiting on Others
+
+🔴 Overdue
+
+⚪ Unassigned
+
+👤 Ownership Resolution
 
 The system explicitly checks whether every action has a clear owner.
 
 For example:
 
-```text
 Action:
 Zenith security audit compliance review
 
@@ -261,29 +277,23 @@ Owner:
 
 System:
 ⚠️ Ownership requires clarification
-```
 
 This prevents important actions from disappearing into ambiguous meeting notes.
 
----
-
-# 📊 Daily Executive Action Brief
+📊 Daily Executive Action Brief
 
 The Streamlit dashboard provides an executive-level summary for each day in the Data Pack window.
 
-### Available dates
+Available dates
 
-```text
 21 Sep 2026
 22 Sep 2026
 23 Sep 2026
 24 Sep 2026
 25 Sep 2026
-```
 
 The selected day can surface:
 
-```text
 ┌──────────────────────────────────────────────┐
 │           EXECUTIVE ACTION BRIEF             │
 ├──────────────────────────────────────────────┤
@@ -298,29 +308,25 @@ The selected day can surface:
 │ Dependencies                                 │
 │ Completion Evidence                          │
 └──────────────────────────────────────────────┘
-```
 
----
-
-# 💬 Grounded Executive Q&A
+💬 Grounded Executive Q&A
 
 The Executive AI Assistant supports questions such as:
 
-> **What did I promise Raghav?**
+What did I promise Raghav?
 
-> **What needs action today?**
+What needs action today?
 
-> **What am I waiting for?**
+What am I waiting for?
 
-> **What is overdue?**
+What is overdue?
 
-> **What is unassigned?**
+What is unassigned?
 
-The Q&A layer is designed to remain **grounded in the supplied Data Pack** rather than generating unsupported information.
+The Q&A layer is designed to remain grounded in the supplied Data Pack rather than generating unsupported information.
 
-### Evidence-backed response structure
+Evidence-backed response structure
 
-```text
 Question
    ↓
 Intent Detection
@@ -332,19 +338,15 @@ Source Evidence
 Grounded Answer
    ↓
 Evidence Citation
-```
 
----
-
-# 🔐 Source Grounding & Auditability
+🔐 Source Grounding & Auditability
 
 A key design principle is:
 
-> **No source evidence → No factual answer.**
+No source evidence → No factual answer.
 
 The system maintains traceability between an action and its original evidence.
 
-```text
 Action
   │
   ├── Source Type
@@ -352,15 +354,11 @@ Action
   ├── Timestamp
   ├── Evidence Text
   └── Metadata
-```
 
-This makes the system more suitable for executive workflows where **explainability and auditability** matter.
+This makes the system more suitable for executive workflows where explainability and auditability matter.
 
----
+🏗️ Project Architecture
 
-# 🏗️ Project Architecture
-
-```text
 executive_productivity_agent/
 │
 ├── 📁 data/
@@ -403,130 +401,134 @@ executive_productivity_agent/
 │
 └── 📄 README.md
     └── Project documentation
-```
 
----
+🛠️ Technology Stack
 
-# 🛠️ Technology Stack
+Technology
 
-| Technology                 | Purpose                             |
-| -------------------------- | ----------------------------------- |
-| 🐍 **Python**              | Core application logic              |
-| 🎈 **Streamlit**           | Interactive executive dashboard     |
-| 🗄️ **SQLite**             | Local action & evidence persistence |
-| 🤖 **Gemini API**          | Optional AI-assisted extraction     |
-| 📦 **JSON**                | Source Data Pack                    |
-| 🔍 **Deterministic Rules** | Reliable extraction/state logic     |
-| 📊 **Pandas**              | Data processing and transformation  |
+Purpose
 
----
+🐍 Python
 
-# 🚀 Getting Started
+Core application logic
 
-## Prerequisites
+🎈 Streamlit
 
-* Python **3.9+**
-* pip
-* Git
+Interactive executive dashboard
 
----
+🗄️ SQLite
 
-## 1️⃣ Clone the Repository
+Local action & evidence persistence
 
-```bash
+🤖 Gemini API
+
+Optional AI-assisted extraction
+
+📦 JSON
+
+Source Data Pack
+
+🔍 Deterministic Rules
+
+Reliable extraction/state logic
+
+📊 Pandas
+
+Data processing and transformation
+
+🚀 Getting Started
+
+Prerequisites
+
+Python 3.9+
+
+pip
+
+Git
+
+1️⃣ Clone the Repository
+
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd executive_productivity_agent
-```
 
----
+2️⃣ Install Dependencies
 
-## 2️⃣ Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
----
-
-## 3️⃣ Configure Environment
+3️⃣ Configure Environment
 
 Optional Gemini API configuration:
 
-```bash
 cp .env.example .env
-```
 
-Then add your API key to `.env`.
+Then add your API key to .env.
 
-> **No API key is required for Deterministic Demo Mode.**
+No API key is required for Deterministic Demo Mode.
 
-The application can run directly against the supplied `data/data_pack.json`.
+The application can run directly against the supplied data/data_pack.json.
 
----
+4️⃣ Run the Application
 
-## 4️⃣ Run the Application
-
-```bash
 streamlit run app.py
-```
 
 Open:
 
-```text
 http://localhost:8501
-```
 
----
-
-# 🖥️ Streamlit Application
+🖥️ Streamlit Application
 
 The application is organized into multiple executive-focused views.
 
-### 📊 Daily Action Brief
+📊 Daily Action Brief
 
 Select a date to inspect:
 
-* Active commitments
-* Pending actions
-* Completed actions
-* Overdue items
-* Waiting dependencies
-* Unassigned actions
+Active commitments
 
-### 💬 Executive AI Assistant
+Pending actions
+
+Completed actions
+
+Overdue items
+
+Waiting dependencies
+
+Unassigned actions
+
+💬 Executive AI Assistant
 
 Ask natural-language questions and receive grounded responses with evidence.
 
-### 🔍 Action & Evidence Matrix
+🔍 Action & Evidence Matrix
 
 Inspect the relationship between:
 
-```text
 Action ↔ Owner ↔ Deadline ↔ Status ↔ Source Evidence
-```
 
-### 📁 Data Pack Inspector
+📁 Data Pack Inspector
 
 Explore the underlying:
 
-* People & email addresses
-* Leadership Sync transcript
-* Arjun calendar
-* Neha calendar
-* Email threads
-* Voice notes
+People & email addresses
 
-### ⚡ System Audit & Pipeline
+Leadership Sync transcript
+
+Arjun calendar
+
+Neha calendar
+
+Email threads
+
+Voice notes
+
+⚡ System Audit & Pipeline
 
 Inspect the processing pipeline and SQLite-backed action/evidence records.
 
----
-
-# 🧪 Deterministic Demo Mode
+🧪 Deterministic Demo Mode
 
 The project includes a deterministic processing path designed to make the application reproducible without depending entirely on an external LLM.
 
-```text
 data_pack.json
       ↓
 Deterministic Extraction
@@ -540,15 +542,11 @@ State Resolution
 SQLite
       ↓
 Streamlit
-```
 
 This provides a reliable baseline while keeping optional AI-assisted extraction available.
 
----
+📌 Example Executive Questions
 
-# 📌 Example Executive Questions
-
-```text
 "What did I promise Raghav?"
 
 "What needs action today?"
@@ -564,39 +562,33 @@ This provides a reliable baseline while keeping optional AI-assisted extraction 
 "What commitments were completed?"
 
 "Show me actions due today."
-```
 
----
-
-# 🎯 Design Principles
+🎯 Design Principles
 
 The project is built around five principles:
 
-### 1. Evidence First
+1. Evidence First
 
 Every important action should have traceable source evidence.
 
-### 2. Chronology Matters
+2. Chronology Matters
 
 Later evidence can update earlier commitments and deadlines.
 
-### 3. One Action, Multiple Sources
+3. One Action, Multiple Sources
 
 Duplicate mentions should resolve into one canonical action.
 
-### 4. State Over Noise
+4. State Over Noise
 
 Executives should see what requires attention rather than raw communication volume.
 
-### 5. Grounded Answers
+5. Grounded Answers
 
 The assistant should answer from the supplied evidence rather than inventing business facts.
 
----
+📈 End-to-End Workflow
 
-# 📈 End-to-End Workflow
-
-```text
        MULTI-MODAL BUSINESS DATA
                   │
                   ▼
@@ -634,61 +626,113 @@ The assistant should answer from the supplied evidence rather than inventing bus
         └────────┬────────┘
                  ▼
        EXECUTIVE DECISION SUPPORT
-```
 
----
+🏆 Assignment Requirements Coverage
 
-# 🏆 Assignment Requirements Coverage
+Requirement
 
-| Requirement                 | Implementation |
-| --------------------------- | -------------- |
-| Multi-source Data Pack      | ✅              |
-| Commitment extraction       | ✅              |
-| Deadline extraction         | ✅              |
-| Deadline updates            | ✅              |
-| Cross-channel deduplication | ✅              |
-| Ownership detection         | ✅              |
-| Waiting-on-others tracking  | ✅              |
-| Overdue detection           | ✅              |
-| Completion detection        | ✅              |
-| Daily executive brief       | ✅              |
-| Grounded Q&A                | ✅              |
-| Source evidence             | ✅              |
-| SQLite persistence          | ✅              |
-| Interactive Streamlit UI    | ✅              |
-| AI-assisted extraction      | ✅ Optional     |
-| Deterministic fallback      | ✅              |
-| Auditability                | ✅              |
+Implementation
 
----
+Multi-source Data Pack
 
-# 🔮 Future Enhancements
+✅
+
+Commitment extraction
+
+✅
+
+Deadline extraction
+
+✅
+
+Deadline updates
+
+✅
+
+Cross-channel deduplication
+
+✅
+
+Ownership detection
+
+✅
+
+Waiting-on-others tracking
+
+✅
+
+Overdue detection
+
+✅
+
+Completion detection
+
+✅
+
+Daily executive brief
+
+✅
+
+Grounded Q&A
+
+✅
+
+Source evidence
+
+✅
+
+SQLite persistence
+
+✅
+
+Interactive Streamlit UI
+
+✅
+
+AI-assisted extraction
+
+✅ Optional
+
+Deterministic fallback
+
+✅
+
+Auditability
+
+✅
+
+🔮 Future Enhancements
 
 Potential extensions include:
 
-* 🔔 Automated deadline reminders
-* 📧 Live email/calendar integrations
-* 🧠 More advanced semantic deduplication
-* 📱 Mobile-friendly executive dashboard
-* 🔐 Role-based access control
-* 📈 Executive workload analytics
-* 🔄 Real-time event ingestion
-* 🤖 Autonomous follow-up generation
-* 📅 Calendar-aware priority ranking
-* 🔗 Enterprise communication integrations
+🔔 Automated deadline reminders
 
----
+📧 Live email/calendar integrations
 
-# 👩‍💻 Built For
+🧠 More advanced semantic deduplication
 
-**AGENTIC AI FACTORY — AIONOS**
+📱 Mobile-friendly executive dashboard
 
-### Executive Productivity Agent
+🔐 Role-based access control
 
-**Focus:** Agentic AI • Information Extraction • Workflow Automation • Grounded Q&A • Executive Decision Support
+📈 Executive workload analytics
 
----
+🔄 Real-time event ingestion
 
-## ⭐ Key Takeaway
+🤖 Autonomous follow-up generation
 
-This project demonstrates how an agent can transform **messy, distributed business communication into a structured executive action layer** — identifying what was promised, who owns it, when it is due, what has changed, what is blocked, and what still requires attention.
+📅 Calendar-aware priority ranking
+
+🔗 Enterprise communication integrations
+
+👩‍💻 Built For
+
+AGENTIC AI FACTORY — AIONOS
+
+Executive Productivity Agent
+
+Focus: Agentic AI • Information Extraction • Workflow Automation • Grounded Q&A • Executive Decision Support
+
+⭐ Key Takeaway
+
+This project demonstrates how an agent can transform messy, distributed business communication into a structured executive action layer — identifying what was promised, who owns it, when it is due, what has changed, what is blocked, and what still requires attention.
