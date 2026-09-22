@@ -5,7 +5,15 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=700&color=8B5CF6&center=true&vCenter=true&width=900&lines=Processing+business+signals...;Extracting+executive+commitments...;Resolving+ownership+%26+deadlines...;Detecting+duplicates+%26+dependencies...;Tracking+actions+with+evidence...;Generating+grounded+executive+intelligence..." />
 
 <br><br>
+<br><br>
 
+<img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/SQLite-Persistence-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/> <img src="https://img.shields.io/badge/Gemini-Optional%20AI-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/AGENTIC_AI-8B5CF6?style=flat-square"/> <img src="https://img.shields.io/badge/GROUNDED_Q%26A-6366F1?style=flat-square"/> <img src="https://img.shields.io/badge/EVIDENCE_FIRST-7C3AED?style=flat-square"/> <img src="https://img.shields.io/badge/AUDITABLE-22C55E?style=flat-square"/> <img src="https://img.shields.io/badge/DETERMINISTIC_FALLBACK-F59E0B?style=flat-square"/>
+
+<br><br>
 <img src="https://skillicons.dev/icons?i=python,streamlit,sqlite,pandas&theme=light" />
 
 <br><br>
