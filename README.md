@@ -1,11 +1,4 @@
-🧠 EXECUTIVE AI AGENT
-Turning Business Noise into Executive Intelligence
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&duration=2400&pause=700&color=8B5CF6&center=true&vCenter=true&width=900&height=45&lines=Processing+business+signals...;Extracting+executive+commitments...;Resolving+ownership+%26+deadlines...;Detecting+dependencies+%26+duplicates...;Tracking+actions+with+evidence...;Generating+grounded+executive+intelligence..." />
-
-<br><br>
 
 <img src="https://skillicons.dev/icons?i=python,streamlit,sqlite,pandas&theme=dark" />
 
