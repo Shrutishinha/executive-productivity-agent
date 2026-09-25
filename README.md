@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=210&color=gradient&customColorList=12,14,16,18&text=EXECUTIVE%20AI%20AGENT&fontSize=44&fontColor=ffffff&animation=twinkling&fontAlignY=42" width="100%"/>
